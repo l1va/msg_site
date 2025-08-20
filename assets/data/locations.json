@@ -1,0 +1,22 @@
+[
+  {
+    "id": "studio-1",
+    "name": "Studio Vinohrady",
+    "image": "../img/location-1.svg",
+    "address": "S\u00e1zavsk\u00e1 20, 120 00 Praha 2",
+    "maps_link": "https://maps.google.com/?q=S\u00e1zavsk\u00e1+20+Praha",
+    "from_price_czk": 1200,
+    "google_rating": 4.9,
+    "reviews_count": 120
+  },
+  {
+    "id": "studio-2",
+    "name": "Studio Karl\u00edn",
+    "image": "../img/location-2.svg",
+    "address": "K\u0159i\u017e\u00edkova 60, 186 00 Praha 8",
+    "maps_link": "https://maps.google.com/?q=K\u0159i\u017e\u00edkova+60+Praha",
+    "from_price_czk": 1200,
+    "google_rating": 4.9,
+    "reviews_count": 67
+  }
+]

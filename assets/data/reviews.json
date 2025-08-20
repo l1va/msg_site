@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Elena",
+    "text_en": "Minimalist studio, maximal results. My back feels brand new.",
+    "text_cz": "Minimalistick\u00e9 studio, maxim\u00e1ln\u00ed v\u00fdsledek. Z\u00e1da jako nov\u00e1.",
+    "rating": 5
+  },
+  {
+    "name": "Martin",
+    "text_en": "Best sport massage in Prague. Professionals and clean vibe.",
+    "text_cz": "Nejlep\u0161\u00ed sportovn\u00ed mas\u00e1\u017e v Praze. Profesion\u00e1lov\u00e9 a \u010dist\u00fd vibe.",
+    "rating": 5
+  },
+  {
+    "name": "Sofia",
+    "text_en": "Calm, bright, premium. Booked my membership after first visit.",
+    "text_cz": "Klidn\u00e9, sv\u011btl\u00e9, pr\u00e9miov\u00e9. Po prvn\u00ed n\u00e1v\u0161t\u011bv\u011b jsem vzala \u010dlenstv\u00ed.",
+    "rating": 5
+  }
+]

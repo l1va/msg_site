@@ -1,0 +1,18 @@
+{
+  "brand": {
+    "name": "Massage Propaganda",
+    "primaryColor": "#111111",
+    "accentColor": "#0B5FFF",
+    "bgColor": "#FFFFFF"
+  },
+  "booking": {
+    "fresha_base_url": "https://www.fresha.com/a/your-fresha-slug",
+    "default_service_id": "",
+    "giftcard_url": "https://www.fresha.com/a/your-fresha-giftcards-slug"
+  },
+  "contact": {
+    "email": "hello@msgpropaganda.com",
+    "phone": "+420 000 000 000",
+    "instagram": "https://instagram.com/massagepropaganda"
+  }
+}

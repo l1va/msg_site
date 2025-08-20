@@ -1,0 +1,50 @@
+[
+  {
+    "id": "zone",
+    "name_en": "Zone Focus",
+    "name_cz": "Z\u00f3nov\u00fd fokus",
+    "desc_en": "Extra time on your tightest area.",
+    "desc_cz": "V\u00edce \u010dasu na nejzatuhlej\u0161\u00ed oblast.",
+    "price_czk": 300
+  },
+  {
+    "id": "head",
+    "name_en": "Head Massage",
+    "name_cz": "Mas\u00e1\u017e hlavy",
+    "desc_en": "Scalp + temples release.",
+    "desc_cz": "Uvoln\u011bn\u00ed poko\u017eky hlavy a sp\u00e1nk\u016f.",
+    "price_czk": 300
+  },
+  {
+    "id": "foot",
+    "name_en": "Foot Massage",
+    "name_cz": "Mas\u00e1\u017e chodidel",
+    "desc_en": "Deep work for feet.",
+    "desc_cz": "Hlub\u0161\u00ed pr\u00e1ce na chodidlech.",
+    "price_czk": 300
+  },
+  {
+    "id": "hangover",
+    "name_en": "Hangover Help",
+    "name_cz": "Proti kocovin\u011b",
+    "desc_en": "Lymph + hydration focus.",
+    "desc_cz": "Lymfa + hydratace.",
+    "price_czk": 400
+  },
+  {
+    "id": "face",
+    "name_en": "Face Refresh",
+    "name_cz": "Face refresh",
+    "desc_en": "De-puffing facial add-on.",
+    "desc_cz": "Odvod\u0148uj\u00edc\u00ed obli\u010dejov\u00fd dopln\u011bk.",
+    "price_czk": 350
+  },
+  {
+    "id": "cupping",
+    "name_en": "Cupping",
+    "name_cz": "Ba\u0148kov\u00e1n\u00ed",
+    "desc_en": "Targeted suction therapy.",
+    "desc_cz": "C\u00edlen\u00e1 podtlakov\u00e1 terapie.",
+    "price_czk": 400
+  }
+]
