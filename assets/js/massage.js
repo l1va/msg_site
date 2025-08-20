@@ -3,7 +3,7 @@ async function renderMassage(){
   const params = new URLSearchParams(location.search);
   const id = params.get('type') || 'classic';
   const lang = localStorage.getItem('lang') || 'en';
-  const list = await fetch('/assets/data/massages.json').then(r=>r.json()).catch(()=>[]);
+  const list = await fetch('assets/data/massages.json').then(r=>r.json()).catch(()=>[]);
   const item = list.find(m => m.id===id) || list[0];
   if(!item) return;
   document.title = `Massage Propaganda — ${lang==='cz' ? item.name_cz : item.name_en}`;
@@ -22,7 +22,7 @@ async function renderMassage(){
           </div>
           <div class="badge"><span aria-hidden="true">★</span> Google 4.9</div>
           <div style="margin-top:24px">
-            <a href="/toppings.html" class="btn ghost">+ Toppings</a>
+            <a href="toppings.html" class="btn ghost">+ Toppings</a>
           </div>
         </div>
       </div>

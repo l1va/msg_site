@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Massage Propaganda — Gift Cards</title>
   <meta name="description" content="Gift the experience. Digital delivery, instant.">
-  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
-  <link rel="preload" as="image" href="/assets/icons/logo.svg">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <script defer src="/assets/js/main.js"></script>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/icons/logo.svg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/main.js"></script>
 </head>
 <body>
   <div class="microbar">
@@ -20,13 +20,13 @@
   <header class="header">
     <div class="container wrap">
       <nav class="nav-left" data-nav>
-        <a href="/#locations" data-i18n="locations">Locations</a>
-        <a href="/memberships.html" data-i18n="memberships">Memberships</a>
-        <a href="/gift-cards.html" data-i18n="giftCards">Gift Cards</a>
-        <a href="/collabs.html" data-i18n="collabs">Collabs</a>
+        <a href="index.html#locations" data-i18n="locations">Locations</a>
+        <a href="memberships.html" data-i18n="memberships">Memberships</a>
+        <a href="gift-cards.html" data-i18n="giftCards">Gift Cards</a>
+        <a href="collabs.html" data-i18n="collabs">Collabs</a>
       </nav>
       <div class="logo">
-        <a href="/"><img src="/assets/icons/logo.svg" alt="Massage Propaganda logo"></a>
+        <a href="index.html"><img src="assets/icons/logo.svg" alt="Massage Propaganda logo"></a>
       </div>
       <div class="nav-right">
         <div class="lang-switch">
@@ -47,7 +47,7 @@
     <section class="container section" data-animate>
       <div class="grid cols-3">
         <a class="card hover-lift gift-link" href="#">
-          <img src="/assets/img/gift-1600.svg" alt="Gift 1600 CZK" loading="lazy">
+          <img src="assets/img/gift-1600.svg" alt="Gift 1600 CZK" loading="lazy">
           <div class="pad">
             <div class="title">1600 CZK</div>
             <div style="margin-top:8px"><span class="badge" data-i18n="bestChoice">Best choice</span></div>
@@ -55,7 +55,7 @@
           </div>
         </a>
         <a class="card hover-lift gift-link" href="#">
-          <img src="/assets/img/gift-2500.svg" alt="Gift 2500 CZK" loading="lazy">
+          <img src="assets/img/gift-2500.svg" alt="Gift 2500 CZK" loading="lazy">
           <div class="pad">
             <div class="title">2500 CZK</div>
             <div style="margin-top:8px"><span class="badge" data-i18n="mostPopular">Most popular</span></div>
@@ -63,7 +63,7 @@
           </div>
         </a>
         <a class="card hover-lift gift-link" href="#">
-          <img src="/assets/img/gift-4000.svg" alt="Gift 4000 CZK" loading="lazy">
+          <img src="assets/img/gift-4000.svg" alt="Gift 4000 CZK" loading="lazy">
           <div class="pad">
             <div class="title">4000 CZK</div>
             <div style="margin-top:12px"><span class="btn ghost" data-i18n="buyNow">Buy now</span></div>
@@ -75,15 +75,15 @@
     <section class="container section" data-animate>
       <h2 class="h2" data-i18n="memberships">Memberships</h2>
       <div class="grid cols-2">
-        <a class="card hover-lift" href="/memberships.html">
-          <img src="/assets/img/membership-3.svg" alt="Membership 3" loading="lazy">
+        <a class="card hover-lift" href="memberships.html">
+          <img src="assets/img/membership-3.svg" alt="Membership 3" loading="lazy">
           <div class="pad">
             <div class="title">3 massages</div>
             <div class="muted">~10% off</div>
           </div>
         </a>
-        <a class="card hover-lift" href="/memberships.html">
-          <img src="/assets/img/membership-5.svg" alt="Membership 5" loading="lazy">
+        <a class="card hover-lift" href="memberships.html">
+          <img src="assets/img/membership-5.svg" alt="Membership 5" loading="lazy">
           <div class="pad">
             <div class="title">5 massages</div>
             <div class="muted">~15% off</div>
@@ -107,11 +107,11 @@
   <script>
   document.addEventListener('DOMContentLoaded', async ()=>{
     const lang = localStorage.getItem('lang') || 'en';
-    const massages = await fetch('/assets/data/massages.json').then(r=>r.json()).catch(()=>[]);
+    const massages = await fetch('assets/data/massages.json').then(r=>r.json()).catch(()=>[]);
     const grid = document.querySelector('#top-massages');
     massages.filter(m=>!m.is_toppings).slice(0,3).forEach(m=>{
       const a = document.createElement('a');
-      a.href = `/massage.html?type=${m.id}`;
+      a.href = `massage.html?type=${m.id}`;
       a.className = 'card hover-lift';
       a.innerHTML = \`
         <img src="\${m.image}" alt="\${m.name_en}" loading="lazy">
