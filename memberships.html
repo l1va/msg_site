@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" class="lang-en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Massage Propaganda — Memberships</title>
+  <meta name="description" content="Save up to 20% + get special perks.">
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="/assets/icons/logo.svg">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+  <div class="microbar">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center">
+      <div class="rating"><span>Google rating</span></div>
+      <div class="badge">Open 9–21 · Prague</div>
+    </div>
+  </div>
+  <header class="header">
+    <div class="container wrap">
+      <nav class="nav-left" data-nav>
+        <a href="/#locations" data-i18n="locations">Locations</a>
+        <a href="/memberships.html" data-i18n="memberships">Memberships</a>
+        <a href="/gift-cards.html" data-i18n="giftCards">Gift Cards</a>
+        <a href="/collabs.html" data-i18n="collabs">Collabs</a>
+      </nav>
+      <div class="logo">
+        <a href="/"><img src="/assets/icons/logo.svg" alt="Massage Propaganda logo"></a>
+      </div>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="cz">CZ</button>
+        </div>
+        <a class="btn primary book-now" href="#" data-i18n="bookNow">Book now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container section" data-animate>
+      <h1 data-i18n="memberships">Memberships</h1>
+      <p class="intro" data-i18n="membershipTeaser">Save up to 20% + get special perks.</p>
+    </section>
+
+    <section class="container section" data-animate>
+      <div class="card">
+        <div class="pad">
+          <h2 style="margin-top:0">Calculator</h2>
+          <div class="grid cols-2">
+            <div>
+              <label>Base price per massage (CZK)</label>
+              <input id="base-price" type="number" value="1200" min="500" step="50" style="width:100%; padding:12px; border:1px solid var(--line); border-radius:10px">
+            </div>
+            <div>
+              <label>Quantity (per pack)</label>
+              <input id="qty" type="range" min="1" max="12" value="5" style="width:100%">
+              <div style="display:flex; gap:16px; margin-top:8px">
+                <div>Qty: <strong id="qty-out">5</strong></div>
+                <div>Discount: <strong id="discount-out">15%</strong></div>
+              </div>
+            </div>
+          </div>
+          <div style="display:flex; gap:24px; margin-top:16px; flex-wrap:wrap">
+            <div>Normal price: <strong id="full-out">CZK</strong></div>
+            <div>Membership price: <strong id="member-out">CZK</strong></div>
+            <div>You save: <strong id="save-out">CZK</strong></div>
+          </div>
+          <div style="margin-top:16px">
+            <a class="btn accent book-now" href="#" data-i18n="buyMembership">Buy membership</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" data-animate>
+      <div class="grid cols-3">
+        <a class="card hover-lift" href="#" target="_blank">
+          <img src="/assets/img/membership-3.svg" alt="Membership 3" loading="lazy">
+          <div class="pad">
+            <div class="title">3 massages</div>
+            <div class="muted">~10% off</div>
+          </div>
+        </a>
+        <a class="card hover-lift" href="#" target="_blank">
+          <img src="/assets/img/membership-5.svg" alt="Membership 5" loading="lazy">
+          <div class="pad">
+            <div class="title">5 massages</div>
+            <div class="muted">~15% off</div>
+          </div>
+        </a>
+        <a class="card hover-lift" href="#" target="_blank">
+          <img src="/assets/img/membership-10.svg" alt="Membership 10" loading="lazy">
+          <div class="pad">
+            <div class="title">10 massages</div>
+            <div class="muted">~20% off</div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="container section" data-animate>
+      <div class="grid cols-2">
+        <div class="card"><div class="pad">
+          <h3>Why membership</h3>
+          <ul>
+            <li>Best price we offer</li>
+            <li>Priority booking</li>
+            <li>Flexible scheduling</li>
+            <li>Gifting available</li>
+          </ul>
+        </div></div>
+        <div class="card"><div class="pad">
+          <h3>Google rating</h3>
+          <p><span aria-hidden="true">★</span> 4.9 · <a href="#reviews">187 reviews</a></p>
+        </div></div>
+      </div>
+    </section>
+  </main>
+  <script defer src="/assets/js/memberships.js"></script>
+
+  <footer class="footer">
+    <div class="container" style="display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap">
+      <div>© 2025 Massage Propaganda</div>
+      <div class="muted">Prague · EN/CZ · <a href="mailto:hello@msgpropaganda.com">hello@msgpropaganda.com</a></div>
+    </div>
+  </footer>
+  <a class="btn accent sticky-cta book-now" href="#"><span data-i18n="bookNow">Book now</span></a>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://msgpropaganda.com/sitemap.xml
