@@ -3,7 +3,7 @@
     "id": "classic",
     "name_en": "Classic",
     "name_cz": "Klasick\u00e1",
-    "image": "/assets/img/massage-classic.svg",
+    "image": "assets/img/massage-classic.svg",
     "from_price_czk": 1200,
     "description_en": "Our modern take on a classic full-body massage for balanced recovery and daily performance.",
     "description_cz": "N\u00e1\u0161 modern\u00ed p\u0159\u00edstup ke klasick\u00e9 mas\u00e1\u017ei cel\u00e9ho t\u011bla pro vyv\u00e1\u017eenou regeneraci a denn\u00ed v\u00fdkon."
@@ -12,7 +12,7 @@
     "id": "sport",
     "name_en": "Sport",
     "name_cz": "Sportovn\u00ed",
-    "image": "/assets/img/massage-sport.svg",
+    "image": "assets/img/massage-sport.svg",
     "from_price_czk": 1300,
     "description_en": "Intense, targeted work to unlock mobility, boost circulation and speed up recovery.",
     "description_cz": "Intenzivn\u00ed, c\u00edlen\u00e1 pr\u00e1ce pro uvoln\u011bn\u00ed mobility, zlep\u0161en\u00ed cirkulace a rychlej\u0161\u00ed regeneraci."
@@ -21,7 +21,7 @@
     "id": "relax",
     "name_en": "Relax",
     "name_cz": "Relaxa\u010dn\u00ed",
-    "image": "/assets/img/massage-relax.svg",
+    "image": "assets/img/massage-relax.svg",
     "from_price_czk": 1200,
     "description_en": "Slow, soothing, spacious. Reset your nervous system in a minimalist environment.",
     "description_cz": "Pomal\u00e9, uklid\u0148uj\u00edc\u00ed, vzdu\u0161n\u00e9. Resetujte nervov\u00fd syst\u00e9m v minimalistick\u00e9m prost\u0159ed\u00ed."
@@ -30,7 +30,7 @@
     "id": "facial",
     "name_en": "Facial",
     "name_cz": "Obli\u010dejov\u00e1",
-    "image": "/assets/img/massage-facial.svg",
+    "image": "assets/img/massage-facial.svg",
     "from_price_czk": 1100,
     "description_en": "Facial massage that lifts, de-puffs and energizes. Skin looks awake, you feel sharper.",
     "description_cz": "Obli\u010dejov\u00e1 mas\u00e1\u017e, kter\u00e1 zpevn\u00ed, odvodn\u00ed a dod\u00e1 energii. Ple\u0165 je sv\u011b\u017e\u00ed, vy jste soust\u0159ed\u011bn\u00ed."
@@ -39,7 +39,7 @@
     "id": "anticellulite",
     "name_en": "Anti\u2011cellulite",
     "name_cz": "Proti celulitid\u011b",
-    "image": "/assets/img/massage-anticellulite.svg",
+    "image": "assets/img/massage-anticellulite.svg",
     "from_price_czk": 1300,
     "description_en": "Focused techniques to smooth skin texture and support lymphatic flow.",
     "description_cz": "C\u00edlen\u00e9 techniky pro vyhlazen\u00ed struktury poko\u017eky a podporu lymfatick\u00e9ho toku."
@@ -48,7 +48,7 @@
     "id": "lymph",
     "name_en": "Lymph Drain",
     "name_cz": "Lymfodren\u00e1\u017e",
-    "image": "/assets/img/massage-lymph.svg",
+    "image": "assets/img/massage-lymph.svg",
     "from_price_czk": 1300,
     "description_en": "Gentle drainage to reduce swelling, remove waste and reboot recovery.",
     "description_cz": "Jemn\u00e1 dren\u00e1\u017e pro sn\u00ed\u017een\u00ed otok\u016f, odplaven\u00ed odpad\u016f a restart regenerace."
@@ -57,7 +57,7 @@
     "id": "office",
     "name_en": "Office",
     "name_cz": "Office",
-    "image": "/assets/img/massage-office.svg",
+    "image": "assets/img/massage-office.svg",
     "from_price_czk": 1150,
     "description_en": "Deep work for back, neck and shoulders. Built for laptop warriors.",
     "description_cz": "Hlubok\u00e1 pr\u00e1ce na z\u00e1dech, krku a ramenou. Pro laptopov\u00e9 v\u00e1le\u010dn\u00edky."
@@ -66,7 +66,7 @@
     "id": "foot",
     "name_en": "Foot",
     "name_cz": "Chodidla",
-    "image": "/assets/img/massage-foot.svg",
+    "image": "assets/img/massage-foot.svg",
     "from_price_czk": 900,
     "description_en": "Grounding focus on feet and lower legs. Surprisingly energising.",
     "description_cz": "Uzem\u0148uj\u00edc\u00ed fokus na chodidla a l\u00fdtka. P\u0159ekvapiv\u011b energizuj\u00edc\u00ed."
@@ -75,7 +75,7 @@
     "id": "toppings",
     "name_en": "Toppings",
     "name_cz": "Toppings",
-    "image": "/assets/img/massage-toppings.svg",
+    "image": "assets/img/massage-toppings.svg",
     "from_price_czk": 300,
     "description_en": "Add-ons to customise any massage.",
     "description_cz": "Dopl\u0148ky pro personalizaci ka\u017ed\u00e9 mas\u00e1\u017ee.",

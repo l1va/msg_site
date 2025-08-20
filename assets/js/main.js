@@ -89,7 +89,7 @@ function initScrollAnims(){
 
 // Load rating for microbar
 async function initRating(){
-  const data = await getJSON('/assets/data/rating.json');
+  const data = await getJSON('assets/data/rating.json');
   if(!data) return;
   const wrap = document.querySelector('.microbar .rating');
   if(!wrap) return;
@@ -103,7 +103,7 @@ async function initRating(){
 
 // Attach book links
 async function initBooking(){
-  const cfg = await getJSON('/assets/data/config.json');
+  const cfg = await getJSON('assets/data/config.json');
   if(!cfg) return;
   document.querySelectorAll('a.book-now, .book-now a, .book-now').forEach(a => {
     if(a.tagName === 'A'){

@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   const lang = localStorage.getItem('lang') || 'en';
 
   // Massages grid
-  const massages = await fetch('/assets/data/massages.json').then(r=>r.json()).catch(()=>[]);
+  const massages = await fetch('assets/data/massages.json').then(r=>r.json()).catch(()=>[]);
   const mg = document.querySelector('#massages-grid');
   massages.forEach(m => {
     const a = document.createElement('a');
-    a.href = m.is_toppings ? '/toppings.html' : `/massage.html?type=${m.id}`;
+    a.href = m.is_toppings ? 'toppings.html' : `massage.html?type=${m.id}`;
     a.className = 'card hover-lift';
     a.innerHTML = `
       <img src="${m.image}" alt="${m.name_en}" loading="lazy">
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   });
 
   // Locations
-  const locations = await fetch('/assets/data/locations.json').then(r=>r.json()).catch(()=>[]);
+  const locations = await fetch('assets/data/locations.json').then(r=>r.json()).catch(()=>[]);
   const lg = document.querySelector('#locations-grid');
   locations.forEach(l => {
     const el = document.createElement('div');
@@ -45,16 +45,16 @@ document.addEventListener('DOMContentLoaded', async ()=>{
 
   // Gifts
   const gifts = [
-    {id:'gift-1600', name: 'Gift 1600 CZK', price:1600, img:'/assets/img/gift-1600.svg', badge:'bestChoice'},
-    {id:'gift-2500', name: 'Gift 2500 CZK', price:2500, img:'/assets/img/gift-2500.svg', badge:'mostPopular'},
-    {id:'gift-4000', name: 'Gift 4000 CZK', price:4000, img:'/assets/img/gift-4000.svg'},
-    {id:'m-3', name: 'Membership 3', price:'from', img:'/assets/img/membership-3.svg'},
-    {id:'m-5', name: 'Membership 5', price:'from', img:'/assets/img/membership-5.svg'}
+    {id:'gift-1600', name: 'Gift 1600 CZK', price:1600, img:'assets/img/gift-1600.svg', badge:'bestChoice'},
+    {id:'gift-2500', name: 'Gift 2500 CZK', price:2500, img:'assets/img/gift-2500.svg', badge:'mostPopular'},
+    {id:'gift-4000', name: 'Gift 4000 CZK', price:4000, img:'assets/img/gift-4000.svg'},
+    {id:'m-3', name: 'Membership 3', price:'from', img:'assets/img/membership-3.svg'},
+    {id:'m-5', name: 'Membership 5', price:'from', img:'assets/img/membership-5.svg'}
   ];
   const gg = document.querySelector('#gifts-grid');
   gifts.forEach(g => {
     const a = document.createElement('a');
-    a.href = g.id.startsWith('gift') ? '/gift-cards.html' : '/memberships.html';
+    a.href = g.id.startsWith('gift') ? 'gift-cards.html' : 'memberships.html';
     a.className = 'card hover-lift';
     a.innerHTML = `
       <img src="${g.img}" alt="${g.name}" loading="lazy">

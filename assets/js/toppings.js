@@ -1,14 +1,14 @@
 
 async function renderToppings(){
   const lang = localStorage.getItem('lang') || 'en';
-  const list = await fetch('/assets/data/toppings.json').then(r=>r.json()).catch(()=>[]);
+  const list = await fetch('assets/data/toppings.json').then(r=>r.json()).catch(()=>[]);
   const grid = document.querySelector('#toppings-grid');
   if(!grid) return;
   grid.innerHTML='';
   list.forEach(t => {
     const el = document.createElement('a');
     el.className = 'card hover-lift';
-    el.href = '/';
+    el.href = 'index.html';
     el.innerHTML = `
       <div class="pad">
         <div class="title">${lang==='cz' ? t.name_cz : t.name_en}</div>

@@ -1,7 +1,7 @@
 
 async function renderReviews(){
   const lang = localStorage.getItem('lang') || 'en';
-  const list = await fetch('/assets/data/reviews.json').then(r=>r.json()).catch(()=>[]);
+  const list = await fetch('assets/data/reviews.json').then(r=>r.json()).catch(()=>[]);
   const wrap = document.querySelector('#reviews-list');
   if(!wrap) return;
   wrap.innerHTML = '';
